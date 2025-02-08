@@ -13,4 +13,4 @@ publish:
 
 # update dependencies and submodules
 update:
-    git submodule update --recursive
+    git submodule update --recursive --init

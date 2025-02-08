@@ -1,0 +1,29 @@
+theme: "Papermod"
+contentDir: "content"
+baseURL: "https://lazarev.work"
+languageCode: "en-us"
+title: "MY BLOG"
+paginate: 5
+
+params:
+  sitename: "Alexanders Blog"
+  defaultTheme: "dark"
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.google.com"
+    - name: "email"
+      url: "https://www.google.com"
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
