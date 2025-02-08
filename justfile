@@ -10,3 +10,7 @@ default:
 # publish the site
 publish:
     hugo
+
+# update dependencies and submodules
+update:
+    git submodule update --recursive
