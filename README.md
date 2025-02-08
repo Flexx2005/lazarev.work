@@ -27,3 +27,9 @@ just run test
 ```
 This will reproduce the site similar to production.
 
+
+### Deployment:
+
+This website is automatically deployed with GitHub Actions to GitHub Pages.
+
+For more details see the [GitHub Actions workflow](.github/workflows/hugo.yaml).
