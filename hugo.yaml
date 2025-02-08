@@ -1,10 +1,8 @@
-theme: "Papermod"
+theme: PaperMod
 contentDir: "content"
 baseURL: "https://lazarev.work"
 languageCode: "en-us"
 title: "MY BLOG"
-paginate: 5
-
 params:
   sitename: "Alexanders Blog"
   defaultTheme: "dark"
