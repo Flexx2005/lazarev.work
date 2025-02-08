@@ -1,6 +1,11 @@
-#!/usr/bin/env just --justfile
+[private]
+default:
+    @just --list run
 
-
-[no-cd]
+[no-cd, doc("Run server in development mode.")]
 dev:
-  hugo server --buildDrafts --buildFuture
+  hugo serve --buildDrafts --buildFuture
+
+[no-cd, doc("Run server in test mode.")]
+test:
+   hugo serve

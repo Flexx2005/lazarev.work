@@ -3,7 +3,9 @@ contentDir: "content"
 baseURL: "https://lazarev.work"
 languageCode: "en-us"
 title: "MY BLOG"
+
 params:
+
   sitename: "Alexanders Blog"
   defaultTheme: "dark"
   socialIcons:

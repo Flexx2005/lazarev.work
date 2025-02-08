@@ -1,6 +1,7 @@
 #!/usr/bin/env just --justfile
 
 mod run "just/run.just"
+mod new "just/new.just"
 
 
 [private]
@@ -13,4 +14,6 @@ publish:
 
 # update dependencies and submodules
 update:
-    git submodule update --recursive --init
+    git submodule update --recursive
+
+
