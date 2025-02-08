@@ -1,6 +1,6 @@
 theme: PaperMod
 contentDir: "content"
-baseURL: "https://lazarev.work"
+baseURL: "https://blog.lazarev.work"
 languageCode: "en-us"
 title: "MY BLOG"
 
